@@ -11,9 +11,10 @@ A machine learning project that uses k-means algorithm to find the color palette
 ## Setup
 
 Install dependencies:
-npm install
+
 
 ```bash
+npm install
 npm install @tensorflow/tfjs
 
 ## Start the server
