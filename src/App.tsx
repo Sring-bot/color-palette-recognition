@@ -34,7 +34,7 @@ function App() {
   };
   const kMeansClustering = async (pixels: number[][], k: number): Promise<number[][]> => {
   const numAttempts = 5;
-  const iterations = 90;
+  const iterations = 50;
 
   let bestCentroids: number[][] = [];
   let bestScore = Infinity;
